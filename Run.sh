@@ -1,1 +1,1 @@
-python3 WhatsappBomber
+python3 WhatsappBomber.py
