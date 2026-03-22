@@ -1,10 +1,10 @@
 name: Build Windows Executable
 
 on:
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
+  workflow_dispatch: 
   push:
     branches:
-      - main # Or 'master', depending on your default branch
+      - main 
 
 jobs:
   build:
@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
@@ -29,7 +29,7 @@ jobs:
         pyinstaller --onefile WhatsappBomber.py
 
     - name: Upload EXE as Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: WhatsappBomber-Windows-EXE
         path: dist/WhatsappBomber.exe
