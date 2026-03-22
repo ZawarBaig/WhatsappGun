@@ -10,6 +10,8 @@ python3 WhatsappBomber.py   or sudo bash Run.sh
 
 Windows 
 
+Note:You can use only Whatsappbomber.exe without any extra installation just double click and run.But make sure thar you have login whatsapp web at your default browser
+
 pip install pyautogui
 
 python WhatsappBomber.py
