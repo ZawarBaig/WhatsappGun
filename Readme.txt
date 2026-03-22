@@ -16,6 +16,6 @@ python WhatsappBomber.py
 
 How to use it securely:
 
-You must be logged into WhatsApp Web first.python must installed.online tool.please fork repository.goog internet for results.
+You must be logged into WhatsApp Web first.python must installed.online tool.please fork repository.good internet for results.
 
 
