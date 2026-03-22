@@ -2,7 +2,7 @@
 import time
 import webbrowser
 import pyautogui
-import colorama
+import colorama 
 colorama.init()
 
 RED = "\033[1;31m"
